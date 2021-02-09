@@ -1,11 +1,10 @@
 ---
-
-- name: Installing base server OS deps MY
+- name: Installing base server OS deps
   apt:
     name:
       - git
       - sudo
-      # - python-pip
+      # - python-pip # not in Ubuntu 20.04
       - python-pkg-resources
       - python-setuptools
       - gzip
